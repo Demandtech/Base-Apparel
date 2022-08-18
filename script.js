@@ -19,5 +19,6 @@ form.addEventListener("submit", function(e){
    text.innerHTML = "please provide a valid email";
    errorImage.style.display = "block";
    email.style.borderColor = "red";
+   return false
   }
 })
